@@ -6,6 +6,7 @@
 
 body{
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .d-flex{
@@ -16,14 +17,33 @@ body{
   justify-content: center;
 }
 
+.just-end{
+  justify-content: flex-end;
+}
+
+.al-center{
+  align-items: center;
+}
+
+.tx-center{
+  text-align: center;
+}
+
+.green{
+  color:#4BC800;
+}
+
+.total{
+  height: 100%;
+}
+
 .margin-r{
   margin-right: 5px;
 }
 
 header{
   position: fixed;
-  color: white;
-  right: 5px;
+  right: 22px;
   top: 5px;
   font-size: .8rem;
   z-index: 999;
@@ -37,7 +57,6 @@ header .flag{
 
 main{
   background-color: black;
-  color: white;
   overflow: auto;
 }
 
@@ -69,4 +88,41 @@ main{
   position: absolute;
   bottom: 4px;
   left: 5px;
+}
+
+footer{
+  background-color: #222222;
+  height: 75px;
+}
+
+footer .menu-bar{
+  height: 100%;
+  justify-content: space-between;
+}
+
+.menu-bar .sezione{
+  width: 33%;
+}
+
+.main-carapter{
+  font-size: 2rem;
+}
+
+.arrow{
+  align-self: center;
+  padding-left: 20px;
+}
+
+.button{
+  margin-left: 20px;
+}
+
+.ds-button{
+  font-size: 0.7rem;
+}
+
+.closer{
+  color: red;
+  background-color: #4A4A4A;
+  padding: 0 20px;
 }
