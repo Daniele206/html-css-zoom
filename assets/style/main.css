@@ -16,6 +16,25 @@ body{
   justify-content: center;
 }
 
+.margin-r{
+  margin-right: 5px;
+}
+
+header{
+  position: fixed;
+  color: white;
+  right: 5px;
+  top: 5px;
+  font-size: .8rem;
+  z-index: 999;
+}
+
+header .flag{
+  background-color: rgba(97, 97, 97, 0.9);
+  padding: 5px;
+  border-radius: 4px;
+}
+
 main{
   background-color: black;
   color: white;
